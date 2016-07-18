@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Administrator role:</strong>
+  <%= @role_policy.administrator_role %>
+</p>
+
+<p>
+  <strong>Managed role:</strong>
+  <%= @role_policy.managed_role %>
+</p>
+
+<p>
+  <strong>Within:</strong>
+  <%= @role_policy.within %>
+</p>
+
+<%= link_to 'Edit', edit_role_policy_path(@role_policy) %> |
+<%= link_to 'Back', role_policies_path %>

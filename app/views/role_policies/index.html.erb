@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Role Policies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Administrator role</th>
+      <th>Managed role</th>
+      <th>Within</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @role_policies.each do |role_policy| %>
+      <tr>
+        <td><%= role_policy.administrator_role %></td>
+        <td><%= role_policy.managed_role %></td>
+        <td><%= role_policy.within %></td>
+        <td><%= link_to 'Show', role_policy %></td>
+        <td><%= link_to 'Edit', edit_role_policy_path(role_policy) %></td>
+        <td><%= link_to 'Destroy', role_policy, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Role Policy', new_role_policy_path %>

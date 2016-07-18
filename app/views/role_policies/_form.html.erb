@@ -1,0 +1,32 @@
+<%= form_for(role_policy) do |f| %>
+  <% if role_policy.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(role_policy.errors.count, "error") %> prohibited this role_policy from being saved:</h2>
+
+      <ul>
+      <% role_policy.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :administrator_role_id %>
+    <%= f.text_field :administrator_role_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :managed_role_id %>
+    <%= f.text_field :managed_role_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :within %>
+    <%= f.text_field :within %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
