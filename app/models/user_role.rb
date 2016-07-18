@@ -6,4 +6,8 @@ class UserRole < ApplicationRecord
   has_many :managed_roles, through: :role_policies
   belongs_to :unit
   belongs_to :school
+
+  def can_manage?(user)
+    managed_roles.include?(user.role)
+  end
 end
