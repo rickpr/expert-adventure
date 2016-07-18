@@ -1,0 +1,58 @@
+[
+  {
+    "administrator_role": "Provost Admin",
+    "managed_role": "Provost"
+  },
+  {
+    "administrator_role": "Provost Admin",
+    "managed_role": "Senior Vice Provost"
+  },
+  {
+    "administrator_role": "Provost Admin",
+    "managed_role": "Provost Faculty Reviewers"
+  },
+  {
+    "administrator_role": "Provost Admin",
+    "managed_role": "College Admin"
+  },
+  {
+    "administrator_role": "College Admin",
+    "managed_role": "College Dean"
+  },
+  {
+    "administrator_role": "College Admin",
+    "managed_role": "College Reviewers Faculty"
+  },
+  {
+    "administrator_role": "College Admin",
+    "managed_role": "Department Admin"
+  },
+  {
+    "administrator_role": "Department Admin",
+    "managed_role": "Department Chair"
+  },
+  {
+    "administrator_role": "Department Admin",
+    "managed_role": "Department Reviewers"
+  },
+  {
+    "administrator_role": "Department Admin",
+    "managed_role": "Department Reviewers"
+  },
+  {
+    "administrator_role": "Department Admin",
+    "managed_role": "Full Professor Candidate"
+  },
+  {
+    "administrator_role": "Department Admin",
+    "managed_role": "Lecturer"
+  },
+  {
+    "administrator_role": "Department Admin",
+    "managed_role": "Mid-Probationary Candidate"
+  },
+  {
+    "administrator_role": "Department Admin",
+    "managed_role": "Tenure and Promotion Candidate"
+  }
+]

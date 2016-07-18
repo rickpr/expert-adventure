@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Tenure and Promotion Candidate",
+    "admin": false,
+    "rank": 0
+  },
+  {
+    "name": "Mid-Probationary Candidate",
+    "admin": false,
+    "rank": 0
+  },
+  {
+    "name": "Lecturer",
+    "admin": false,
+    "rank": 0
+  },
+  {
+    "name": "Full Professor Candidate",
+    "admin": false,
+    "rank": 0
+  },
+  {
+    "name": "Department Reviewers",
+    "admin": false,
+    "rank": 1
+  },
+  {
+    "name": "Department Chair",
+    "admin": false,
+    "rank": 2
+  },
+  {
+    "name": "Department Admin",
+    "admin": true,
+    "rank": 3
+  },
+  {
+    "name": "College Reviewers Faculty",
+    "admin": false,
+    "rank": 4
+  },
+  {
+    "name": "College Dean",
+    "admin": false,
+    "rank": 5
+  },
+  {
+    "name": "College Admin",
+    "admin": true,
+    "rank": 6
+  },
+  {
+    "name": "Provost Faculty Reviewers",
+    "admin": false,
+    "rank": 7
+  },
+  {
+    "name": "Senior Vice Provost",
+    "admin": false,
+    "rank": 8
+  },
+  {
+    "name": "Provost",
+    "admin": false,
+    "rank": 8
+  },
+  {
+    "name": "Provost Admin",
+    "admin": true,
+    "rank": 9
+  }
+]

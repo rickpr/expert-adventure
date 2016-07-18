@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Curriculum Vitae",
+    "role": "Candidate",
+    "pdf": true
+  },
+  {
+    "name": "Teaching Statement or Portfolio",
+    "role": "Candidate",
+    "pdf": true
+  },
+  {
+    "name": "Teaching Record",
+    "role": "Candidate",
+    "pdf": true
+  },
+  {
+    "name": "Course Materials",
+    "role": "Candidate",
+    "pdf": true
+  },
+  {
+    "name": "Research Statement",
+    "role": "Candidate",
+    "pdf": true
+  },
+  {
+    "name": "Service Statement",
+    "role": "Candidate",
+    "pdf": true
+  },
+  {
+    "name": "Supplemental Materials",
+    "role": "Candidate",
+    "pdf": false
+  },
+  {
+    "name": "Annual Reviews",
+    "role": "Department Admin",
+    "pdf": true
+  },
+  {
+    "name": "External Reviews",
+    "role": "Department Admin",
+    "pdf": true
+  },
+  {
+    "name": "Department Vote and Comments",
+    "role": "Department Admin",
+    "pdf": true
+  },
+  {
+    "name": "Letter from Department Chair",
+    "role": "Department Admin",
+    "pdf": true
+  },
+  {
+    "name": "Amended Documents (Department)",
+    "role": "Department Admin",
+    "pdf": true
+  },
+  {
+    "name": "College Reviewers Vote and Comments",
+    "role": "College Admin",
+    "pdf": true
+  },
+  {
+    "name": "Letter from Dean",
+    "role": "College Admin",
+    "pdf": true
+  },
+  {
+    "name": "Amended Documents (College)",
+    "role": "College Admin",
+    "pdf": true
+  },
+  {
+    "name": "Rebuttals/Appeals (College)",
+    "role": "College Admin",
+    "pdf": true
+  },
+  {
+    "name": "Senior Vice Provost's Letter",
+    "role": "Provost",
+    "pdf": true
+  },
+  {
+    "name": "Provost Decision",
+    "role": "Provost",
+    "pdf": true
+  },
+  {
+    "name": "Amended Documents (Provost)",
+    "role": "Provost",
+    "pdf": true
+  },
+  {
+    "name": "Rebuttals/Appeals (Provost)",
+    "role": "Provost",
+    "pdf": true
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Anderson School of Management",
+    "school": "Accounting"
+  },
+  {
+    "name": "Anderson School of Management",
+    "school": "Finance, International, Technology and Entrepreneurship (FITE)"
+  },
+  {
+    "name": "Anderson School of Management",
+    "school": "Department of Marketing, Information Systems, Information Assurance, & Operations Management Faculty (MIDS)"
+  },
+  {
+    "name": "Anderson School of Management",
+    "school": "Department of Organizational Studies (DOS)"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "American Studies"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Anthropology"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Biology"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Chemistry and Chemical Biology"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Communication & Journalism"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Earth & Planetary Sciences"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Economics"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "English"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Foreign Languages & Literature"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Geography"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "History"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Linguistics"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Mathematics & Statistics"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Philosophy"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Physics & Astronomy"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Political Science"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Psychology"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "School of Public Administration"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Sociology"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Spanish & Portuguese"
+  },
+  {
+    "name": "College of Arts & Sciences",
+    "school": "Speech & Hearing Sciences"
+  },
+  {
+    "name": "College of Education",
+    "school": "Educational Specialties"
+  },
+  {
+    "name": "College of Education",
+    "school": "Health, Exercise, and Sports Sciences (HESS)"
+  },
+  {
+    "name": "College of Education",
+    "school": "Individual, Family, and Community Education (IFCE)"
+  },
+  {
+    "name": "College of Education",
+    "school": "Language, Literacy, and Sociocultural Studies (LLSS)"
+  },
+  {
+    "name": "College of Education",
+    "school": "Teacher Education, Educational Leadership & Policy (TEELP)"
+  },
+  {
+    "name": "College of Fine Arts",
+    "school": "Art & Art History"
+  },
+  {
+    "name": "College of Fine Arts",
+    "school": "Music"
+  },
+  {
+    "name": "College of Fine Arts",
+    "school": "Theatre & Dance"
+  },
+  {
+    "name": "College of Fine Arts",
+    "school": "Cinematic Arts"
+  },
+  {
+    "name": "College of Nursing",
+    "school": "College of Nursing"
+  },
+  {
+    "name": "College of Pharmacy",
+    "school": "College of Pharmacy"
+  },
+  {
+    "name": "College of University Libraries & Learning Sciences",
+    "school": "College of University Libraries & Learning Sciences"
+  },
+  {
+    "name": "School of Architecture and Planning",
+    "school": "Architecture"
+  },
+  {
+    "name": "School of Architecture and Planning",
+    "school": "Community & Regional Planning"
+  },
+  {
+    "name": "School of Architecture and Planning",
+    "school": "Landscape Architecture"
+  },
+  {
+    "name": "School of Architecture and Planning",
+    "school": "Historic Preservation & Regionalism"
+  },
+  {
+    "name": "School of Architecture and Planning",
+    "school": "Urban & Regional Design"
+  },
+  {
+    "name": "School of Engineering",
+    "school": "Chemical & Biological Engineering"
+  },
+  {
+    "name": "School of Engineering",
+    "school": "Civil Engineering"
+  },
+  {
+    "name": "School of Engineering",
+    "school": "Computer Science"
+  },
+  {
+    "name": "School of Engineering",
+    "school": "Electrical & Computer Engineering"
+  },
+  {
+    "name": "School of Engineering",
+    "school": "Mechanical Engineering"
+  },
+  {
+    "name": "School of Engineering",
+    "school": "Nuclear Engineering"
+  },
+  {
+    "name": "School of Law",
+    "school": "School of Law"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Anesthesiology & Critical Care Medicine"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Biochemistry & Molecular Biology"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Cell Biology and Physiology"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Dental Medicine"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Dermatology"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Emergency Medicine"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Family and Community Medicine"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Internal Medicine"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Molecular Genetics & Microbiology"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Neurology"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Neurosciences"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Neurosurgery"
+  },
+  {
+    "name": "School of Medicine",
+    "school": "Obstetrics & Gynecology"
+  }
+]
