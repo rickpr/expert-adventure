@@ -1,0 +1,27 @@
+<%= form_for(phase_role) do |f| %>
+  <% if phase_role.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(phase_role.errors.count, "error") %> prohibited this phase_role from being saved:</h2>
+
+      <ul>
+      <% phase_role.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :phase_id %>
+    <%= f.text_field :phase_id %>
+  </div>
+
+  <div class="field">
+    <%= f.label :role_id %>
+    <%= f.text_field :role_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

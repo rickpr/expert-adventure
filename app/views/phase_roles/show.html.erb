@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Phase:</strong>
+  <%= @phase_role.phase %>
+</p>
+
+<p>
+  <strong>Role:</strong>
+  <%= @phase_role.role %>
+</p>
+
+<%= link_to 'Edit', edit_phase_role_path(@phase_role) %> |
+<%= link_to 'Back', phase_roles_path %>

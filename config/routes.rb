@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :phase_roles
+  resources :phases
   resources :sections
   resources :role_policies
   resources :recusals

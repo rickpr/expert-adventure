@@ -10,7 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160718190704) do
+ActiveRecord::Schema.define(version: 20160719214139) do
+
+  create_table "phase_roles", force: :cascade do |t|
+    t.integer  "phase_id"
+    t.integer  "role_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["phase_id"], name: "index_phase_roles_on_phase_id"
+    t.index ["role_id"], name: "index_phase_roles_on_role_id"
+  end
+
+  create_table "phases", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "next_phase_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.index ["next_phase_id"], name: "index_phases_on_next_phase_id"
+  end
 
   create_table "recusals", force: :cascade do |t|
     t.integer  "reviewer_id"
@@ -88,6 +105,8 @@ ActiveRecord::Schema.define(version: 20160718190704) do
     t.boolean  "has_dossier"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.integer  "phase_id"
+    t.index ["phase_id"], name: "index_user_roles_on_phase_id"
     t.index ["role_id"], name: "index_user_roles_on_role_id"
     t.index ["school_id"], name: "index_user_roles_on_school_id"
     t.index ["unit_id"], name: "index_user_roles_on_unit_id"

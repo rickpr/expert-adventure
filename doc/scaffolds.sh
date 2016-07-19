@@ -5,6 +5,7 @@ rails g scaffold user netid name
 #UserRole
 rails g scaffold user_role user:references role:references unit:references \
 school:references has_dossier:boolean
+rails g migration AddPhaseToUserRole phase:references
 # Roles
 rails g scaffold role name rank:integer admin:boolean candidate:boolean
 # School
@@ -32,3 +33,9 @@ rails g scaffold recusal reviewer:references candidate:references
 # RolePolicies
 rails g scaffold role_policy administrator_role:references \
 managed_role:references within
+
+# Phases
+rails g scaffold phase name next_phase:references
+
+# PhaseRole junction
+rails g scaffold PhaseRole phase:references role:references

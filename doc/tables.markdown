@@ -15,6 +15,7 @@ rails g scaffold user netid name
 ``` bash
 rails g scaffold user_role user:references role:references unit:references \
 school:references has_dossier:boolean
+rails g migration AddPhaseToUserRole phase:references
 ```
 # Roles
 - name: String
@@ -79,4 +80,14 @@ rails g scaffold recusal reviewer:references candidate:references
 ``` bash
 rails g scaffold role_policy administrator_role:references\
 managed_role:references within
+```
+
+# Phases
+``` bash
+rails g scaffold phase name next_phase:references
+```
+
+# PhaseRole Junction
+``` bash
+rails g scaffold PhaseRole phase:references role:references
 ```
