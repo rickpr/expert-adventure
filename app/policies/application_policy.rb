@@ -52,7 +52,7 @@ class ApplicationPolicy
   end
 
   def check_rank_and_admin
-    current_user.admin? && current_user.rank > "#{@item.class.upcase}_RANK".constantize
+    current_user.admin? && current_user.rank > "#{record.class.upcase}_RANK".constantize
   end
 
 end
