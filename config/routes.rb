@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  root 'home#index'
+
+  get 'home/license'
+
   resources :phase_roles
   resources :phases
   resources :sections

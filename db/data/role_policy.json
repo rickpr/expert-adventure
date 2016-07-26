@@ -1,6 +1,10 @@
 [
   {
     "administrator_role": "Provost Admin",
+    "managed_role": "Provost Admin"
+  },
+  {
+    "administrator_role": "Provost Admin",
     "managed_role": "Provost"
   },
   {
