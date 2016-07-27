@@ -65,3 +65,6 @@ gem 'acts_as_list'
 
 # For files
 gem 'paperclip'
+
+# For breadcrumbs
+gem 'gretel'

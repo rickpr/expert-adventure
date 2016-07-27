@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+  skip_before_action :authorize, only: :unauthorized
   def index
   end
 
@@ -6,6 +7,7 @@ class HomeController < ApplicationController
   end
 
   def unauthorized
+    render layout: 'unauthorized'
   end
 
   def change_role

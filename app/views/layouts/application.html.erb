@@ -81,7 +81,7 @@
         <div class="starter-template">
           <div class="col-lg-9">
             <ol class="breadcrumb">
-              <li><%= render_crumbs separator: "</li><li>" %></li>
+              <li><%= breadcrumbs separator: "</li><li>" %></li>
             </ol>
           </div>
         </div>
@@ -89,7 +89,6 @@
       <div class="container">
         <div class="starter-template">
           <div class="col-lg-9">
-            <%= bootstrap_flash %>
             <%= yield %>
           </div>
         </div><!--/row-->
